@@ -1,15 +1,15 @@
 {
     "name": "Azur-RP-Cracked-Launcher",
     "preductname": "AzurRP Cracked Launcher",
-    "version": "1.0.1",
-    "description": "Launcher Mincraft Crack pour le serveur AzurRP",
+    "version": "1.0.0",
+    "description": "Launcher Minecraft Crack pour le serveur AzurRP",
     "main": "src/app.js",
     "author": {
         "name": "luuxis, AzurRP, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "https://azur-rp-launcher.novamc.fr",
+    "url": "https://cracked-launcher.azur-rp.eu",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
