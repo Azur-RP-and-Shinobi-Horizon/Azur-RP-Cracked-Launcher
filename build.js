@@ -65,8 +65,8 @@ class Index {
                 generateUpdatesFilesForAllChannels: false,
                 appId: preductname,
                 productName: preductname,
-                copyright: 'Copyright © 2020-2025 AzurRP',
-                artifactName: "Azur-RP-Cracked-Launcher-${os}-${arch}.${ext}",
+                copyright: 'Copyright © 2025 AzurRP',
+                artifactName: "Azur-RP-Launcher-${os}-${arch}.${ext}",
                 extraMetadata: { main: 'app/app.js' },
                 files: ["app/**/*", "package.json", "LICENSE.md"],
                 directories: { "output": "dist" },
@@ -84,8 +84,8 @@ class Index {
                     }]
                 },
                 nsis: {
-                    oneClick: true,
-                    allowToChangeInstallationDirectory: false,
+                    oneClick: false,
+                    allowToChangeInstallationDirectory: true,
                     createDesktopShortcut: true,
                     runAfterFinish: true
                 },
