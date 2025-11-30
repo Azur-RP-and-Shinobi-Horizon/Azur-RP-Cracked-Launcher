@@ -1,7 +1,7 @@
 {
     "name": "azur-rp-launcher",
     "preductName": "AzurRP Launcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "AzurRP modded server launcher",
     "main": "src/app.js",
     "author": "AzurRP, Riptiaz/Boulldogo/Vexato/Luuxis",
